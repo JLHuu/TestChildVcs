@@ -31,6 +31,8 @@
     [_control setSelectedSegmentIndex:0];//默认第一个
     _fvc = [[FViewController alloc] init];
     [_fvc.view setFrame:self.view.bounds];
+    // 设置完view的fream，就会走viewdidload
+    // 其他的vcs在视图控制器交换完成的时候就会进行视图加载
     _svc = [[SViewController alloc] init];
     _tvc = [[TViewController alloc] init];
     [self addChildViewController:_fvc];// 默认是第一个vc
