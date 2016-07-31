@@ -5,4 +5,4 @@
 在这个demo里，我使得父视图控制器管理一个子视图控制器，通过交换视图，移除老的子视图控制器，更换新的子视图控制器，来很好的处理各个子视图控制器的生命周期，达到想要的效果。
 效果如下
 ------
-![](/Runresult/TestChildVcs.mov)
+![](/TestChildVcs/Runresult/TestChildVcs.mov)
