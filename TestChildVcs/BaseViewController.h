@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// 视图的基类
 @interface BaseViewController : UIViewController
 
 @end
