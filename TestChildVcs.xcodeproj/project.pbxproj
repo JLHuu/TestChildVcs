@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0417CC7B1D4DCFED006FEA04 /* TestChildVcs.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0417CC7A1D4DCFED006FEA04 /* TestChildVcs.mov */; };
 		6D1488631D3E332800E643EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1488621D3E332800E643EE /* main.m */; };
 		6D1488661D3E332800E643EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1488651D3E332800E643EE /* AppDelegate.m */; };
 		6D14886C1D3E332800E643EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14886A1D3E332800E643EE /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0417CC7A1D4DCFED006FEA04 /* TestChildVcs.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TestChildVcs.mov; sourceTree = "<group>"; };
 		6D14885E1D3E332800E643EE /* TestChildVcs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChildVcs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1488621D3E332800E643EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D1488641D3E332800E643EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,9 +53,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0417CC791D4DCFED006FEA04 /* Runresult */ = {
+			isa = PBXGroup;
+			children = (
+				0417CC7A1D4DCFED006FEA04 /* TestChildVcs.mov */,
+			);
+			path = Runresult;
+			sourceTree = "<group>";
+		};
 		6D1488551D3E332800E643EE = {
 			isa = PBXGroup;
 			children = (
+				0417CC791D4DCFED006FEA04 /* Runresult */,
 				6D1488601D3E332800E643EE /* TestChildVcs */,
 				6D14885F1D3E332800E643EE /* Products */,
 			);
@@ -156,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0417CC7B1D4DCFED006FEA04 /* TestChildVcs.mov in Resources */,
 				6D1488711D3E332900E643EE /* LaunchScreen.storyboard in Resources */,
 				6D14886E1D3E332900E643EE /* Assets.xcassets in Resources */,
 				6D14886C1D3E332800E643EE /* Main.storyboard in Resources */,
@@ -324,6 +336,7 @@
 				6D1488771D3E332900E643EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
